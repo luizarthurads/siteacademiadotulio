@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+
+  background: url(./images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000; /* Define a cor do texto para preto */
+}
+
+.page {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  margin-bottom: 55px;
+
+  font-family: "Mulish", sans-serif;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  color: #1f1534;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #000;
+  font-weight: normal;
+}
+
+h1 span {
+  color: #cabe17;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #000; /* Define a cor do texto para preto */
+  margin: 40px 0;
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  background: rgb(94, 204, 94);
+  border: 0;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; /* Remove sublinhado */
+}
+
+button img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+button span {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background: rgb(62, 136, 62);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+footer a {
+  font-weight: bold;
+  color: #000;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px; /* Define um tamanho máximo para a altura da imagem */
+}
