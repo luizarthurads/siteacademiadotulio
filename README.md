@@ -26,3 +26,6 @@ Contribuições são bem-vindas! Se você tem alguma sugestão de melhoria, corr
 ## Licença
 
 Este projeto está sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
+![academia](https://github.com/luizarthurads/siteacademiadotulio/assets/163301815/5dc1065a-e638-4c5e-87ae-f5a9126da5d5)
